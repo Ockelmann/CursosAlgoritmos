@@ -235,39 +235,19 @@ footer{
 }
 
 
-@media screen and (max-width: 964px){
+@media screen and (max-width: 1100px){
     
     .container-body{
         flex-wrap: wrap;
     }
     
     .colum1{
-       height: 40px;
-       width: 325px;
+        max-width: 100%;
     }
     
-
+    .colum2,
     .colum3{
         margin-top: 40px;
-        margin-right: 50px;
-    }
-}
-
-@media screen and (max-width: 830px){
-    .container-body{
-        flex-wrap: wrap;
-    }
-    
-    .colum1{
-        margin-bottom: 40px;
-    }
-    
-    .colum2{
-        margin-top: 70px;
-        margin-right: 300px;
-    }
-    .colum3{
-        margin-top: 70px;
     }
 }
    
