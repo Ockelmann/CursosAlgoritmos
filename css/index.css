@@ -185,7 +185,7 @@ footer{
 
 .row2 label{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
     max-width: 140px;
 }
 
@@ -218,7 +218,7 @@ footer{
 }
 
 
-@media screen and (max-width: 1282px){
+@media screen and (max-width: 748px){
     
     .container-body{
         flex-wrap: wrap;
@@ -235,6 +235,42 @@ footer{
 }
 
 
+@media screen and (max-width: 964px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+       height: 40px;
+       width: 325px;
+    }
+    
+
+    .colum3{
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        margin-bottom: 40px;
+    }
+    
+    .colum2{
+        margin-top: 70px;
+        margin-right: 300px;
+    }
+    .colum3{
+        margin-top: 70px;
+    }
+}
+   
 
 
 
