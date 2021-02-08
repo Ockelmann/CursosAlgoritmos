@@ -126,7 +126,7 @@ footer{
 }
 
 .colum1{
-    max-width: 400px;
+    width: 400px;
 }
 
 .colum1 h1{
@@ -225,7 +225,7 @@ footer{
     }
     
     .colum1{
-        max-width: 100%;
+       width: 100%;
     }
     
     .colum2,
